@@ -2,15 +2,15 @@
 title: "Big Data Meets Small Data"
 output:
   html_document:
-    css: custom.css
-    highlight: tango
     theme: united
-    toc: yes
+    highlight: tango
+    css: custom.css
+    toc: true
     toc_depth: 1
-subtitle: Sentiment analysis in R
 editor_options:
   chunk_output_type: console
 ---
+
 
 ```{r opts, echo = FALSE}
 knitr::opts_chunk$set(message=FALSE, warning=FALSE)
